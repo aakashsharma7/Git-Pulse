@@ -24,7 +24,7 @@ interface UserData {
 }
 
 interface ProfileComponentProps {
-    userData: UserData;
+    userData: UserData; 
 }
 
 const ProfileComponent: React.FC<ProfileComponentProps> = ({ userData }) => {
