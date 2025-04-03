@@ -51,7 +51,7 @@ const GithubUsernameInput = () => {
                         label="Enter Github Username"
                         variant="outlined"
                         defaultValue={' '}
-                        value={username}
+                        value={username}  //controlled 
                         size='medium'
                         onChange={(e) => setUsername(e.target.value)}
                         InputLabelProps={{
